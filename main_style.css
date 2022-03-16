@@ -108,7 +108,6 @@ body {
 }
 .main_background .content_down_icon svg {
   color: white;
-  padding: 10px;
 }
 
 /* Main Section */
@@ -220,13 +219,9 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
-.section4 .section_4 video {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 800px;
+
+.w-100 {
+  height: 100vh;
 }
